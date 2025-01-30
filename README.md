@@ -18,7 +18,7 @@ The analysis focuses on price movements, volatility, returns, technical indicato
   - Calculated as the percentage change in the closing price between consecutive days. Visualization of Time-series plots highlight daily returns and large positive or negative moves.
 2. Volatility and Extreme Returns
   - Volatility: Daily returns fluctuate with a standard deviation of 0.00798 (0.8%), representing moderate price variability.
-  - xtreme Returns: There were 6 extreme positive and 8 extreme negative return days, indicating asymmetric downside risk during market shocks.
+  - Extreme Returns: There were 6 extreme positive and 8 extreme negative return days, indicating asymmetric downside risk during market shocks.
 3. Technical Indicators: The analysis employs several trend-following and momentum-based indicators
   - Simple Moving Averages (SMA): Detects long-term and short-term trends using 20-day and 50-day windows.
   - Exponential Moving Averages (EMA): Reacts more quickly to recent prices, aiding in early trend detection.
@@ -32,6 +32,8 @@ The analysis focuses on price movements, volatility, returns, technical indicato
   - Vega (ν): Assesses sensitivity to changes in volatility, providing insight into market uncertainty.
   - Theta (Θ): Represents time decay, showing how the option's value decreases as expiration approaches.
   - Rho (ρ): Evaluates how changes in interest rates affect the option's value.
+
+---
 
 ## Trading Strategies
 1. SMA Crossover Strategy
